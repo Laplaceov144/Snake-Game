@@ -1,0 +1,28 @@
+body {
+  background-color: burlywood;  
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column; /* arrange items on top of the other */
+  justify-content: center;
+  align-items: center;
+}
+form {
+    margin-top: 20px;
+}
+label, input {
+    font-family: Helvetica;
+    font-size: 1.5rem;
+}
+.speed {
+    width: 50px;
+}
+
+canvas {
+  margin-top: 70px;  
+  box-shadow: black 20px 10px 50px; /*elevate our canvas and add shadow*/
+}
+a {
+  text-decoration: none;
+  color: black;
+}
